@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(14, 13, 13);
+}
+
+header {
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.button {
+    background-color: #36bbce;
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(65, 78, 150);
+    text-decoration: none;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(241, 237, 237);
+    font-size: 36px;
+    margin-top: 20x;
+    margin-bottom:100px ;
+}
+
+p {
+    font-size: 24px;
+    text-align:center;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+}
+
+article {
+    background-color: rgb(52, 14, 223);
+    padding:20px ;
+    width: 400px;
+    margin:20px ;
+    color:white;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgb(127, 141, 209);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: rgb(3, 3, 3);
+    padding:50px ;
+    display: flex;
+}
+
+footer a {
+    margin-right:50px ;
+}
+
+footer p {
+    font-size: 24px;
+}
+h2{
+    text-align: center;
+}
